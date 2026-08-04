@@ -142,7 +142,7 @@
                         <i data-lucide="smile" class="w-6 h-6"></i>
                     </div>
                     <div class="space-y-2">
-                        <h3 class="text-2xl font-bold text-slate-900 dark:text-slate-50">PAUD & TK</h3>
+                        <h3 class="text-2xl font-bold text-slate-900 dark:text-slate-50">PAUD (KB-TK-TPA)</h3>
                         <p class="text-[13px] text-slate-500 dark:text-slate-400 leading-relaxed">
                             Pendidikan anak usia dini yang berfokus pada eksplorasi, kreativitas, dan pengembangan karakter dasar yang menyenangkan.
                         </p>
@@ -150,7 +150,7 @@
                 </div>
                 
                 <div class="flex items-center justify-between pt-6 mt-4 border-t border-slate-100 dark:border-slate-900/60">
-                    <span class="text-[10px] font-bold text-rose-600 dark:text-rose-500 uppercase tracking-widest">Login ke Dashboard PAUD & TK</span>
+                    <span class="text-[10px] font-bold text-rose-600 dark:text-rose-500 uppercase tracking-widest">Login ke Dashboard PAUD</span>
                     <a href="http://sans-paud.test/login" class="w-8 h-8 rounded-full bg-rose-50 hover:bg-rose-100 text-rose-600 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-rose-400 flex items-center justify-center transition-colors">
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
