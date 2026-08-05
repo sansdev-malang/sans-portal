@@ -170,7 +170,7 @@
                 
                 <div class="flex items-center justify-between pt-6 mt-4 border-t border-slate-100 dark:border-slate-900/60">
                     <span class="text-[10px] font-bold text-slate-800 dark:text-slate-400 uppercase tracking-widest">Login ke Dashboard SD</span>
-                    <a href="https://sd.sans.sch.id" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-655 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
+                    <a href="https://sd.sans.sch.id" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-600 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
@@ -193,7 +193,7 @@
                 
                 <div class="flex items-center justify-between pt-6 mt-4 border-t border-slate-100 dark:border-slate-900/60">
                     <span class="text-[10px] font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest">Login ke Dashboard SMP</span>
-                    <a href="https://smp.sans.sch.id" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-655 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
+                    <a href="https://smp.sans.sch.id" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-600 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
