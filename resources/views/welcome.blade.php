@@ -13,14 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/nasalization" rel="stylesheet">
 
-    <!-- Tailwind CSS CDN (Unconditional for reliable mockup rendering) -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Tailwind CSS (and JS) via Vite for production -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <script>
-        // Support tailwind CDN dark mode class configuration
-        tailwind.config = {
-            darkMode: 'class'
-        }
         // Apply saved theme or default to dark
         if (localStorage.getItem('color-theme') === 'light' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches)) {
             document.documentElement.classList.remove('dark');
@@ -128,7 +124,7 @@
                 
                 <div class="flex items-center justify-between pt-6 mt-4 border-t border-slate-100 dark:border-slate-900/60">
                     <span class="text-[10px] font-bold text-emerald-600 dark:text-emerald-500 uppercase tracking-widest">Login ke Yayasan</span>
-                    <a href="http://sans-hrd.test/login" class="w-8 h-8 rounded-full bg-[#ecfdf5] hover:bg-[#d1fae5] text-emerald-600 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-emerald-400 flex items-center justify-center transition-colors">
+                    <a href="https://admin.sans.sch.id" class="w-8 h-8 rounded-full bg-[#ecfdf5] hover:bg-[#d1fae5] text-emerald-600 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-emerald-400 flex items-center justify-center transition-colors">
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
@@ -151,7 +147,7 @@
                 
                 <div class="flex items-center justify-between pt-6 mt-4 border-t border-slate-100 dark:border-slate-900/60">
                     <span class="text-[10px] font-bold text-rose-600 dark:text-rose-500 uppercase tracking-widest">Login ke Dashboard PAUD</span>
-                    <a href="http://sans-paud.test/login" class="w-8 h-8 rounded-full bg-rose-50 hover:bg-rose-100 text-rose-600 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-rose-400 flex items-center justify-center transition-colors">
+                    <a href="https://paud.sans.sch.id" class="w-8 h-8 rounded-full bg-rose-50 hover:bg-rose-100 text-rose-600 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-rose-400 flex items-center justify-center transition-colors">
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
@@ -174,7 +170,7 @@
                 
                 <div class="flex items-center justify-between pt-6 mt-4 border-t border-slate-100 dark:border-slate-900/60">
                     <span class="text-[10px] font-bold text-slate-800 dark:text-slate-400 uppercase tracking-widest">Login ke Dashboard SD</span>
-                    <a href="http://sans-sd.test/login" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-655 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
+                    <a href="https://sd.sans.sch.id" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-655 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
@@ -197,7 +193,7 @@
                 
                 <div class="flex items-center justify-between pt-6 mt-4 border-t border-slate-100 dark:border-slate-900/60">
                     <span class="text-[10px] font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest">Login ke Dashboard SMP</span>
-                    <a href="http://sans-smp.test/login" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-655 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
+                    <a href="https://smp.sans.sch.id" class="w-8 h-8 rounded-full bg-[#eff6ff] hover:bg-[#dbeafe] text-blue-655 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-blue-400 flex items-center justify-center transition-colors">
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
