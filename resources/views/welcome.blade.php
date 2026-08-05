@@ -203,7 +203,7 @@
 
         <!-- HELP SUBTEXT -->
         <p class="text-xs text-slate-500 dark:text-slate-400">
-            Kesulitan menemukan unit Anda? <a href="https://api.whatsapp.com/send/?phone=6283100107000&text=Assalamulaikum%20Admin%20SANS&type=phone_number&app_absent=0" class="font-bold text-slate-900 dark:text-slate-100 hover:underline">Hubungi Admin Sekolah</a>
+            Kesulitan menemukan unit Anda? <a href="https://api.whatsapp.com/send/?phone=6283100107000&text=Assalamulaikum%20Admin%20SANS&type=phone_number&app_absent=0" class="font-bold text-slate-900 dark:text-slate-100 hover:underline" target="_blank">Hubungi Admin Sekolah</a>
         </p>
 
     </main>
